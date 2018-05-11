@@ -45,6 +45,18 @@ public class Lab3_ErickCarrasco {
                     Personaje X = new Picaro();
                     System.out.println(X);
                 }
+                ArrayList r = new ArrayList();
+                System.out.println("");
+                System.out.println("");
+                System.out.println("");
+                System.out.println("");
+                System.out.println("1/ Start Game");
+                System.out.println("2/ Exit (Why you will choose this? You didn't like your character)");
+                int start;
+                start = sc.nextInt();
+                if (start ==1) {
+                    
+                }
                 
                 
             }
