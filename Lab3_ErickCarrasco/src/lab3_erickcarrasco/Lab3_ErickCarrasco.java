@@ -6,6 +6,7 @@ public class Lab3_ErickCarrasco {
     public static void main(String[] args) {
         Inicio I = new Inicio();
         Difficulty D = new Difficulty();
+        int sd;
         
         Scanner sc = new Scanner(System.in);
         System.out.println("***********");
@@ -52,11 +53,17 @@ public class Lab3_ErickCarrasco {
                 System.out.println("1/ Easy $ \n Enemies are recruits, you will have a good time enjoying this game");
                 System.out.println("2/Give me a challenge \n You are looking for enemies to test your skills, enemies are veterans");
                 System.out.println("3/Give me a nightmare! \n You are inhuman, enemies are unforgiving and the difficulty is like your name, Relentless");
-                int sd;
+                
                 sd = sc.nextInt();
                 D=new Difficulty(sd);
                 if (sd ==1) {
-                    
+                    System.out.println("Easy $ Difficulty");
+                }
+                if (sd == 2) {
+                    System.out.println("Give me a challenge");
+                }
+                if (sd==3) {
+                    System.out.println("Give me a nightmare!");
                 }
             }
         }
