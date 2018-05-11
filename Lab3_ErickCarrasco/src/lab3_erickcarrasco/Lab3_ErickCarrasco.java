@@ -15,8 +15,8 @@ public class Lab3_ErickCarrasco {
         while(menu != 3){
             System.out.println("1/ Iniciar");
             System.out.println("2/ Difficulty");
-            System.out.println("3/Salir");
-            
+            System.out.println("3/ Salir");
+            menu = sc.nextInt();
             if (menu ==1) {
                 System.out.println("Crear personaje");
                 System.out.println("1/ Mago");
@@ -28,6 +28,10 @@ public class Lab3_ErickCarrasco {
                 int select;
                 select = sc.nextInt();
                 I = new Inicio(select);
+                if (select==1) {
+                    Personaje P = new Mage();
+                    System.out.println(P);
+                }
                 
                 
             }
