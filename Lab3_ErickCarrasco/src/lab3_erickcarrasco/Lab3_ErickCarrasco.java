@@ -20,7 +20,7 @@ public class Lab3_ErickCarrasco {
             if (menu ==1) {
                 System.out.println("Crear personaje");
                 System.out.println("1/ Mago");
-                System.out.println("2/ Berzerk");
+                System.out.println("2/ Archer");
                 System.out.println("3/ Berzerk");
                 System.out.println("4/ Picaro");
                 System.out.println("****");
@@ -31,6 +31,18 @@ public class Lab3_ErickCarrasco {
                 if (select==1) {
                     Personaje P = new Mage();
                     System.out.println(P);
+                }
+                if (select == 2) {
+                    Personaje A = new Archer();
+                    System.out.println(A);
+                }
+                if (select == 3) {
+                    Personaje B = new Berserk();
+                    System.out.println(B);
+                }
+                if (select == 4) {
+                    Personaje X = new Picaro();
+                    System.out.println(X);
                 }
                 
                 
