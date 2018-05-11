@@ -10,5 +10,19 @@ package lab3_erickcarrasco;
  * @author erick
  */
 public class Nightmare extends Difficulty{
+    int level;
+
+    public Nightmare() {
+    }
+
+    public Nightmare(int diff) {
+        super(diff);
+        this.level=15;
+    }
+    
+    public int lev(){
+        int lev=level;
+        return lev;
+    }
     
 }

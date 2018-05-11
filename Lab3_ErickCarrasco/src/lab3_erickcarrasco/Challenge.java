@@ -10,5 +10,19 @@ package lab3_erickcarrasco;
  * @author erick
  */
 public class Challenge extends Difficulty{
+    int level;
+
+    public Challenge() {
+    }
+
+    public Challenge(int diff) {
+        super(diff);
+        this.level = 10;
+    }
+    
+    public int lev(){
+        int lev = level;
+        return lev;
+    }
     
 }

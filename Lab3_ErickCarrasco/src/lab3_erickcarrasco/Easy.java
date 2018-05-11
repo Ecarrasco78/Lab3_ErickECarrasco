@@ -10,5 +10,18 @@ package lab3_erickcarrasco;
  * @author erick
  */
 public class Easy extends Difficulty {
+    int level;
+
+    public Easy() {
+    }
+
+    public Easy(int diff) {
+        super(diff);
+        this.level=5;
+    }
     
+    public int lev(){
+        int lev = level;
+        return lev;
+    }
 }
