@@ -11,4 +11,22 @@ package lab3_erickcarrasco;
  */
 public class Difficulty {
     
+    int diff;
+
+    public Difficulty() {
+    }
+
+    public Difficulty(int diff) {
+        this.diff = diff;
+    }
+
+    public int getDiff() {
+        return diff;
+    }
+
+    public void setDiff(int diff) {
+        this.diff = diff;
+    }
+    
+    
 }
